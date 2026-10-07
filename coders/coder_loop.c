@@ -1,22 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   codexion.c                                         :+:      :+:    :+:   */
+/*   coder_loop.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: anjakob <anjakob@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/09/24 22:26:18 by anjakob           #+#    #+#             */
-/*   Updated: 2026/09/24 22:37:42 by anjakob          ###   ########.fr       */
+/*   Created: 2026/10/07 19:40:26 by anjakob           #+#    #+#             */
+/*   Updated: 2026/10/08 00:00:44 by anjakob          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "codexion.h"
 
-int main(int argc, char **argv)
+int	coder_loop()
 {
-    if (argc != 9)
-        return 1;
-    if (argv)
-        printf("argv is true!\n");
-    return 0;
+	return 0;
 }

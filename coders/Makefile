@@ -2,9 +2,13 @@ NAME			=	codexion
 
 CFLAGS			=	-Wall -Wextra -Werror -pthread
 
-SRCS			=	codexion.c
+SRCS			=	main.c \
+					validate_args.c \
+					parse_args.c \
+					coder_loop.c \
+					utils.c
 
-OBJS_DIR		=	objects
+OBJS_DIR		=	objects/
 OBJS			=	${SRCS:%.c=$(OBJS_DIR)/%.o}
 
 all: $(NAME)
